@@ -9,7 +9,7 @@ def markov():
     markovvalues = getPairValues(markovvalues) #returns a list of [S, [P(E|S), P(F|S)]] and [T, [P(E|T), P(F|T)]]
     #given that the input values are in the same order as the observable values
 
-
+    print(markovvalues)
     #next section should solve for it
     numOfSols = int(inputf.pop(0))
     for data in datasets:
